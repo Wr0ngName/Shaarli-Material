@@ -1,3 +1,7 @@
+# Forked Shaarli Material Theme: why?
+To maintain my own organization, I was struggling with a multisite tree and had to add more options to the menu. Not a lot of improvments at the time I write this.
+
+
 # Shaarli Material Theme
 Shaarli Material is a theme for [Shaarli](https://github.com/shaarli/Shaarli), the famous personal, minimalist, super-fast, database free, bookmarking service.
 
