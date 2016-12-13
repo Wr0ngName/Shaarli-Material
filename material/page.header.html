@@ -4,21 +4,27 @@
     <div class="header-main container-fluid">
         <div class="row">
             <div class="col-lg-3">
-                <a href="?" class="header-brand ripple">{$shaarlititle}</a>
+                <a href="../" class="header-brand ripple">
+                    <img src="./images/toolbar/backtomain.png" style="border:none;height:24px;width:24px;">
+                    &nbsp;{$shaarlititle}
+                </a>
                 <a href="#" class="icon-rss icon-unfold pull-right hidden-lg ripple" title="Show/hide menu"></a>
             </div>
             <div class="col-lg-6 header-middle">
                 <div class="header-nav">
-                    <div class="col-xs-6 col-sm-3 text-center">
+                    <div class="col-xs-8 col-sm-2 text-center">
+                        <a href="?" class="toolbar-link button-inverse ripple">Home</a>
+                    </div>
+                    <div class="col-xs-8 col-sm-2 text-center">
                         <a href="?do=tagcloud" class="toolbar-link button-inverse ripple">Tag cloud</a>
                     </div>
-                    <div class="col-xs-6 col-sm-3 text-center">
+                    <div class="col-xs-8 col-sm-2 text-center">
                         <a href="?do=picwall{$searchcrits}" class="toolbar-link button-inverse ripple">Picture wall</a>
                     </div>
-                    <div class="col-xs-6 col-sm-3 text-center">
+                    <div class="col-xs-8 col-sm-2 text-center">
                         <a href="?do=daily" class="toolbar-link button-inverse ripple">Daily</a>
                     </div>
-                    <div class="col-xs-6 col-sm-3 text-center">
+                    <div class="col-xs-8 col-sm-2 text-center">
                         <button class="toolbar-link button-inverse ripple" id="button-search">Search</button>
                     </div>
                 </div>
