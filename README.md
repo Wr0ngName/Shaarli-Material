@@ -2,14 +2,17 @@
 To maintain my own organization, I was struggling with a multisite tree and had to add more options to the menu. Not a lot of improvments at the time I write this.
 
 
+## Screenshots
+![Shaarli Material Screenshot Home](https://raw.githubusercontent.com/Wr0ngName/Shaarli-Material/master/screenshots/afterchanges.PNG)
+
 # Shaarli Material Theme
 Shaarli Material is a theme for [Shaarli](https://github.com/shaarli/Shaarli), the famous personal, minimalist, super-fast, database free, bookmarking service.
 
 
 ## Screenshots
-![Shaarli Material Screenshot Home](https://raw.githubusercontent.com/kalvn/Shaarli-Material/master/screenshots/showcase.png)
+![Shaarli Material Screenshot Home](https://raw.githubusercontent.com/Wr0ngName/Shaarli-Material/master/screenshots/showcase.png)
 
-[More screenshots](https://github.com/kalvn/Shaarli-Material/tree/master/screenshots).
+[More screenshots](https://github.com/Wr0ngName/Shaarli-Material/tree/master/screenshots).
 
 
 ## Requirements
@@ -19,13 +22,13 @@ Older versions won't work, take a look at the [official project](https://github.
 
 
 ## Download
-To download this theme, [visit this page](https://github.com/kalvn/Shaarli-Material/releases) and choose the most recent version matching the version of your Shaarli installation. Both use the same notation.
+To download this theme, [visit this page](https://github.com/Wr0ngName/Shaarli-Material/releases) and choose the most recent version matching the version of your Shaarli installation. Both use the same notation.
 
 Versions suffixed by `-patch.x` include some bugfix so take those preferentially if they exist for the version that fits your Shaarli installation.
 
 
 ## Installation
-### Shaarli 0.5.0 or above
+NOTE : Requires Shaarli 0.5.0 or above
 Download the `material` folder into the `tpl` directory of your Shaarli installation. It should be next to existing `.html` files.
 
 In your Shaarli installation, open the `data/config.php` and change the `RAINTPL_TPL` parameter to `tpl/material/`.
